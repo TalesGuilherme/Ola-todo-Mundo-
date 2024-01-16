@@ -1,0 +1,495 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteGame';
+    src: url("fonts/PixelifySans-VariableFont_wght.ttf");
+}
+
+/*FORMATAÇÕES GERAIS*/
+body{
+    background-color: black;
+    width: auto;
+}
+div#interface{
+    width: auto;
+}
+.titulo01{
+    color: white;
+    font-family: 'FonteGame', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    padding-top: 100px;
+}
+.titulo02{
+    color: white;
+    font-family: 'FonteGame', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    padding-top: 50px;
+}
+.titulo03{
+    color: white;
+    font-family: 'FonteGame', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    padding-top: 30px;
+}
+.links{
+    color: blueviolet;
+    font-family: 'FonteGame', sans-serif;
+    font-size: 15pt;
+    text-decoration: none;
+}
+a.botao{
+    color: white;
+    text-decoration: none;
+}
+.botao:hover {
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline
+}
+
+/*Formatação da primeira parte(PRIMEIRO BLOCO)*/
+div#primeiro-bloco{
+    width: auto;
+    height: 500px;
+    background-color: blueviolet;
+}
+section#parte01{
+    display: block;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
+}
+figure.xicara img{
+    width: 400px;
+    display: block;
+    position: relative;
+    float: center;
+    left: 150px;
+    top: 10px;
+}
+aside#parte01{
+    display: block;
+    position: relative;
+    float: right;
+    width: 50%;
+    height: auto;
+}
+aside#parte01 h1{
+    color: white;
+    font-family: 'FonteGame', sans-serif;
+    font-size: 100pt;
+    text-align: left;
+    text-shadow: 3px 3px 10px black;
+    padding: 0px;
+    margin: 100px 0px 0px 0px;
+}
+aside#parte01 h2{
+    color: white;
+    font-family: 'FonteGame', sans-serif;
+    font-size: 50pt;
+    text-align: left;
+    text-shadow: 0px 0px 10px black;
+    padding: 0px;
+    margin: -30px 0px 0px 0px;
+}
+
+/*Formatação da segunda parte(SEGUNDO BLOCO)*/
+div#segundo-bloco{
+    width: auto;
+    height: 500px;
+    background-color: black;
+    margin-top: -16px;
+    padding-top: -20px;
+}
+section#parte02{
+    display: block;
+    position: relative;
+    float: left;
+    width: 50%;
+    height: auto;
+}
+section#parte02 p{
+    color: white;
+    font-family: 'FonteGame', sans-serif;
+    font-size: 22pt;
+    text-align: justify;
+    text-shadow: 1px 1px 1px blueviolet;
+    padding: 180px 0px 100px 200px;
+    margin: 0px;
+}
+figure.char-livro img{
+    width: 370px;
+    display: block;
+    position: relative;
+    float: center;
+    left: 120px;
+    top: 70px;
+}
+aside#parte01{
+    display: block;
+    position: relative;
+    float: right;
+    width: 50%;
+    height: auto;
+}
+
+/*Formatação da terceira parte(TERCEIRO BLOCO)*/
+div#terceiro-bloco{
+    width: auto;
+    height: 500px;
+    background-color: blueviolet;
+    margin-top: -16px;
+}
+ul#icones span{
+    color: white;
+}
+ul#icones{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#icones li{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 200px ;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.1s ease-in;
+}
+ul#icones li span{
+    display: block;
+    position: relative;
+    opacity: 0;
+    color: white;
+    font-family: 'FonteGame', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 10pt;
+    line-height: 220px;
+    padding: 5px;
+}
+ul#icones li:hover{
+    -webkit-transform: scale(1.2);
+}
+ul#icones li:hover span{
+    opacity: 1;
+}
+
+/*ICONE 1*/
+ul#icones li#icone01{
+    background: url("imagens/icon01.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100px 120px;
+    background-color: white;
+}
+ul#icones li#icone01:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+/*ICONE 2*/
+ul#icones li#icone02{
+    background: url("imagens/icon02.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 80px 100px;
+    background-color: white;
+}
+ul#icones li#icone02:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+/*ICONE 3*/
+ul#icones li#icone03{
+    background: url("imagens/icon_javascript.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100px 100px;
+    background-color: white;
+}
+ul#icones li#icone03:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+/*ICONE 4*/
+ul#icones li#icone04{
+    background: url("imagens/icon04.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 90px 90px;
+    background-color: white;
+}
+ul#icones li#icone04:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+/*ICONE 5*/
+ul#icones li#icone05{
+    background: url("imagens/icon05.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 90px 90px;
+    background-color: white;
+}
+ul#icones li#icone05:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+/*ICONE 6*/
+ul#icones li#icone06{
+    background: url("imagens/icon06.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 80px 80px;
+    background-color: white;
+}
+ul#icones li#icone06:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+/*Formatação da quarta parte (QUARTO BLOCO)*/
+div#quarto-bloco{
+    width: auto;
+    height: 500px;
+    background-color: black;
+    margin-top: -16px;
+}
+ul#jogos span{
+    color: white;
+}
+ul#jogos{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#jogos li{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    margin-top: -10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px white;
+    -webkit-transition: all 0.2s ease-in;
+
+}
+
+ul#jogos li span{
+    display: block;
+    position: relative;
+    opacity: 0;
+    color: white;
+    font-family: 'FonteGame', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 15pt;
+    line-height: 520px;
+    padding: 10px;
+}
+
+ul#jogos li:hover{
+    -webkit-transform: scale(1.2);
+}
+
+ul#jogos li:hover span{
+    opacity: 1;
+}
+
+/*JOGO 1*/
+ul#jogos li#alem{
+    background: url("imagens/alem_capa.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: white;
+}
+ul#jogos li#alem:hover{
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+
+/*JOGO 2*/
+ul#jogos li#gv{
+    background: url("imagens/greenvaley_capa.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: white;
+}
+ul#jogos li#gv:hover{
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+
+/*Formatação da quinta parte (QUINTO BLOCO)*/
+div#quinto-bloco{
+    width: auto;
+    height: 500px;
+    background-color: blueviolet;
+    margin-top: -16px;
+}
+ul#sites span{
+    color: white;
+}
+ul#sites{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#sites li{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    margin-top: -10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px white;
+    -webkit-transition: all 0.2s ease-in;
+
+}
+ul#sites li span{
+    display: block;
+    position: relative;
+    opacity: 0;
+    color: white;
+    font-family: 'FonteGame', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 15pt;
+    line-height: 520px;
+    padding: 10px;
+}
+ul#sites li:hover{
+    -webkit-transform: scale(1.2);
+}
+ul#sites li:hover span{
+    opacity: 1;
+}
+
+/*SITE 1*/
+ul#sites li#biografia{
+    background: url("imagens/xicara.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: black;
+}
+ul#sites li#biografia:hover{
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+
+/*SITE 2*/
+ul#sites li#breve{
+    background-position: 50% 50%;
+    background-size: 250px 250px;
+    background-color: black;
+}
+ul#sites li#breve:hover{
+    background-position: 0px 0px;
+    background-size: 250px 250px;
+}
+
+/*Formatação da última parte(ÚLTIMO BLOCO)*/
+div#ultimo-bloco{
+    width: auto;
+    height: 400px;
+    background-color: black;
+    margin-top: -16px;
+}
+ul#contatos span{
+    color: white;
+}
+ul#contatos{
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    padding-left: 100px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#contatos li{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 7px;
+    border-radius: 200px ;
+    box-shadow: 0px 0px 15px blueviolet;
+    -webkit-transition: all 0.1s ease-in;
+}
+ul#contatos li span{
+    display: block;
+    position: relative;
+    opacity: 0;
+    color: white;
+    font-family: 'FonteGame', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 8pt;
+    line-height: 220px;
+    padding: 5px;
+}
+ul#contatos li:hover{
+    -webkit-transform: scale(1.2);
+}
+ul#contatos li:hover span{
+    opacity: 1;
+}
+
+/*ICONE 1*/
+ul#contatos li#linkedin{
+    background: url("imagens/linkedin.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100px 100px;
+    background-color: white;
+}
+ul#icones li#icone01:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+/*ICONE 2*/
+ul#contatos li#instagram{
+    background: url("imagens/instagram.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100px 100px;
+    background-color: white;
+}
+ul#contatos li#instagram:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+/*ICONE 3*/
+ul#contatos li#email{
+    background: url("imagens/email.png") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100px 100px;
+    background-color: white;
+}
+ul#contatos li#email:hover{
+    background-position: 0px 0px;
+    background-size: 100px 100px;
+}
+
+/*Formataçãp do RODAPÉ*/
+footer#rodape {
+    border-top: 1px #606060 solid;
+}
+footer#rodape p {
+    font-family: 'FonteGame', sans-serif;
+    text-align: center;
+    color: white;
+}
